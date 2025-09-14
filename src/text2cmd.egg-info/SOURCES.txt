@@ -1,0 +1,9 @@
+pyproject.toml
+src/text2cmd/__init__.py
+src/text2cmd/main.py
+src/text2cmd.egg-info/PKG-INFO
+src/text2cmd.egg-info/SOURCES.txt
+src/text2cmd.egg-info/dependency_links.txt
+src/text2cmd.egg-info/entry_points.txt
+src/text2cmd.egg-info/requires.txt
+src/text2cmd.egg-info/top_level.txt

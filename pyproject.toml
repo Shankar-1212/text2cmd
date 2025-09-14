@@ -1,0 +1,18 @@
+# pyproject.toml
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "text2cmd"
+version = "0.1.0"
+dependencies = [
+    "google-generativeai",
+    "typer[all]",      # Using [all] pulls in rich for nice formatting
+    "python-dotenv",
+]
+
+# This is the key part that creates the 'ask' command
+[project.scripts]
+ask = "text2cmd.main:app"
