@@ -25,12 +25,15 @@ A tool to convert natural language into shell commands using the Gemini API.
     ```bash
     pip install -e .
     ```
-
+4. Setup api key
+     ```bash
+    echo "GEMINI_API_KEY=your_api_key_here" > .env
+    ```
 ---
 
 ## Usage
+ 
+ ```bash
+    ask "list all files in current directory"
+ ```
 
-Run the tool from anywhere:
-
-```bash
-ask "list all files in current directory"
