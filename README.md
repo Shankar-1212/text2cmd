@@ -1,10 +1,10 @@
 # text2cmd
 
-A simple tool to convert natural language into shell commands using the Gemini API.
+A tool to convert natural language into shell commands using the Gemini API.
 
 ---
 
-## ✅ Setup
+## Setup
 
 1. Clone the repository:
 
@@ -28,7 +28,7 @@ A simple tool to convert natural language into shell commands using the Gemini A
 
 ---
 
-## 🚀 Usage
+## Usage
 
 Run the tool from anywhere:
 
